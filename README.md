@@ -1,4 +1,4 @@
-# python_de_learning_2025
+# python-data-engineering-labs
 
 Purpose: Senior Data Engineer–style Python practice (scripts, packages, tests, and notebooks) with **one clean workflow**: local VS Code → Git → GitHub.
 
