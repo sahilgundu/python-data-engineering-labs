@@ -9,6 +9,19 @@ from math import sqrt
 
 name = "Staurt"
 print("Hello World " + name + "!")
+print(f"Hello World {name}!")
+
+print("Heloooooo" "Sahillll")
+
+print(f"Hello World {name} Namaskar ## !!")
+
+"""
+    About spaces
+
+    Spaces outside quotes are ignored by the parser (they’re just whitespace between tokens).
+
+    Spaces inside quotes are part of the string.
+"""
 
 text: str = "apple"
 number: int = 10
@@ -112,7 +125,7 @@ print(a != b)
 # -------- if elif ------------Simple Bot-----------------
 
 ## %%
-"""
+
 while True:
     userinput: str = input("You: ")
 
@@ -129,7 +142,7 @@ while True:
 
     else:
         print("Hi User, I could not undertood your input")
-"""
+
 ## %%
 
 # -------- exception handling ------------
@@ -151,7 +164,6 @@ c, d = 15.5, 89.56
 
 print(c * d)
 
-####
 
 ## %%
 a, b = 10, "15"
@@ -166,11 +178,8 @@ print("Continue with Program from here")
 c, d = 15.5, 89.56
 
 print(c * d)
-####
 
-## %%
 
-## %%
 a, b = 10, "15"
 try:
     print(a + int(b) / 0)
@@ -202,7 +211,7 @@ print(sqrt(121))
 
 ##-------------Chatbot Creation--------------------------------
 
-# %%
+## %%
 bot_name: str = "Sahil Chatbot:-"
 print(
     f"My name is {bot_name}. How can I help you? I provide following services: \n 1. + addition \n 2. - substraction \n 3. emotional support"
@@ -271,4 +280,4 @@ while True:
         print("I could not understand your input. Please try again")
 
 
-# %%
+## %%
